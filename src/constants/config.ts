@@ -1,0 +1,41 @@
+export const API_KEY = "58052348-99c076bb0c00149e6802d20a2";
+
+export const CATEGORIES = [
+  "backgrounds",
+  "fashion",
+  "nature",
+  "science",
+  "education",
+  "feelings",
+  "health",
+  "people",
+  "religion",
+  "places",
+  "animals",
+  "industry",
+  "computer",
+  "food",
+  "sports",
+  "transportation",
+  "travel",
+  "buildings",
+  "business",
+  "music",
+] as const;
+
+export const COLORS = [
+  "grayscale",
+  "transparent",
+  "red",
+  "orange",
+  "yellow",
+  "green",
+  "turquoise",
+  "blue",
+  "lilac",
+  "pink",
+  "white",
+  "gray",
+  "black",
+  "brown",
+] as const;
